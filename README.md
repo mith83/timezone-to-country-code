@@ -3,7 +3,7 @@ JS Library for obtaining the country code from the timezone.
 Easily convert timezone to country code or place using the timezone-to-country-code JS Library 
 
 # Usage Example 
-Here is timezone to country code js library example on using its functions.
+Here is timezone to country code js library example on using its functions.<br/> 
 const t = new tz(); // Initialize the JS Class<br/> 
 let userTimezone = t.getUserTimeZone(); // Gets user's timezone<br/> 
 let userCountry = t.getCountryCode(userTimezone); // Gets user's country code<br/> 
