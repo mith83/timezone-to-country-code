@@ -8,7 +8,7 @@ const t = new tz(); // Initialize the JS Class<br/>
 let userTimezone = t.getUserTimeZone(); // Gets user's timezone<br/> 
 let userCountry = t.getCountryCode(userTimezone); // Gets user's country code<br/> 
 let place = t.getPlace(userTimezone); // Gets user's place<br/> 
-let tz_array = t.timeZoneArrayWithCountryCodes(); // Get's all timezone list as an array<br/> 
+let tz_array = t.timeZoneArrayWithCountryCodes(); // Gets all timezone list as an array<br/> 
 
 # Dependency 
 Moment's Luxon 3.5.0 JS Library 
